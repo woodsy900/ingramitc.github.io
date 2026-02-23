@@ -119,7 +119,7 @@ ul.tree-view,
   font-size: 11px;
 }
 .window {
-  font-size:var(--base-font-size);
+  font-size: var(--base-font-size);
 }
 
 h1 {
