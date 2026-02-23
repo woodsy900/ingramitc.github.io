@@ -1,26 +1,8 @@
-The font file in this archive was created using Fontstruct the free, online
-font-building tool.
-This font was created by “lou”.
-This font has a homepage where this archive and other versions may be found:
-https://fontstruct.com/fontstructions/show/1384862
-
-Try Fontstruct at http://fontstruct.com
-It’s easy and it’s fun.
-
-NOTE FOR FLASH USERS: Fontstruct fonts (fontstructions) are optimized for Flash.
-If the font in this archive is a pixel font, it is best displayed at a font-size
-of 11.
-
-Fontstruct is sponsored by FontShop.
-Visit them at https://fontshop.com
-FontShop is the original independent font retailer. We’ve been around since
-the dawn of digital type. Whether you need the right font or need to create the
-right font from scratch, let our 26 years of experience work for you.
-
-Fontstruct is copyright ©2017 Rob Meek
-
-LEGAL NOTICE:
-In using this font you must comply with the licensing terms described in the
-file “license.txt” included with this archive.
-If you redistribute the font file in this archive, it must be accompanied by all
-the other files from this archive, including this one.
+<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15 0H0V1V16H1V1H15V0Z" fill="#DFDFDF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2 1H1V15H2V2H14V1H2Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16 17H15H0V16H15V0H16V17Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15 1H14V15H1V16H14H15V1Z" fill="#808080"/>
+<rect x="2" y="2" width="12" height="13" fill="#C0C0C0"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7 4H6V11H7V10H8V9H9V8H10V7H9V6H8V5H7V4Z" fill="black"/>
+</svg>
