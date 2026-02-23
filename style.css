@@ -72,16 +72,16 @@
 
 @font-face {
   font-family: "Pixelated MS Sans Serif";
-  src: url("fonts/converted/ms_sans_serif.woff") format("woff");
-  src: url("fonts/converted/ms_sans_serif.woff2") format("woff2");
+  src: url("ms_sans_serif.woff") format("woff");
+  src: url("ms_sans_serif.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Pixelated MS Sans Serif";
-  src: url("fonts/converted/ms_sans_serif_bold.woff") format("woff");
-  src: url("fonts/converted/ms_sans_serif_bold.woff2") format("woff2");
+  src: url("ms_sans_serif_bold.woff") format("woff");
+  src: url("ms_sans_serif_bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
 }
@@ -255,20 +255,20 @@ input[type="reset"]:disabled,
 }
 
 .title-bar-controls button[aria-label="Restore"] {
-  background-image: svg-load("./icon/restore.svg");
+  background-image: svg-load("restore.svg");
   background-repeat: no-repeat;
   background-position: top 2px left 3px;
 }
 
 .title-bar-controls button[aria-label="Help"] {
-  background-image: svg-load("./icon/help.svg");
+  background-image: svg-load("help.svg");
   background-repeat: no-repeat;
   background-position: top 2px left 5px;
 }
 
 .title-bar-controls button[aria-label="Close"] {
   margin-left: 2px;
-  background-image: svg-load("./icon/close.svg");
+  background-image: svg-load("close.svg");
   background-repeat: no-repeat;
   background-position: top 3px left 4px;
 }
