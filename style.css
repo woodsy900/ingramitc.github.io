@@ -90,7 +90,25 @@ body {
   font-family: Arial;
   font-size: 12px;
   color: #222222;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size:18px;
+  display: flex;             /* Enable flexbox */
+  justify-content: center;   /* Center horizontally */
+  align-items: center;       /* Center vertically */
 }
+
+.field-border-disabled img {
+  width:100%;
+}
+
+@media (min-width: 768px) {
+      body { font-size: 16px; } /* Larger on desktop */
+    }
+
+@media (max-width: 767px) {
+      body { font-size: 18px; }
+      p {font-size:18px; } /* Even larger on mobile if needed */
+    }
 
 button,
 label,
