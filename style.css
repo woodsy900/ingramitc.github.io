@@ -68,7 +68,7 @@
   --border-field: inset -1px -1px var(--button-highlight),
     inset 1px 1px var(--button-shadow), inset -2px -2px var(--button-face),
     inset 2px 2px var(--window-frame);
-    --base-font-size: clamp(0.875rem, 1.5vw + 0.5rem, 1.125rem);
+  --base-font-size: clamp(0.875rem, 1.5vw + 0.5rem, 1.125rem);
 }
 
 @font-face {
