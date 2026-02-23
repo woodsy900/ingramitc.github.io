@@ -90,6 +90,7 @@ html {
   /* clamp(MIN, PREFERRED, MAX) */
   font-size: var(--base-font-size);
 }
+
 body {
   font-family: Arial;
   font-size: 1rem;
@@ -112,11 +113,13 @@ textarea,
 select,
 option,
 ul.tree-view,
-.window,
 .title-bar {
   font-family: "Pixelated MS Sans Serif", Arial;
   -webkit-font-smoothing: none;
   font-size: 11px;
+}
+.window {
+  
 }
 
 h1 {
