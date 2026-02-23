@@ -126,7 +126,7 @@ body {
     margin: 0 !important;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   #header {
     flex:100%; 
     width: 98% !important;
