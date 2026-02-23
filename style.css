@@ -121,7 +121,7 @@ body {
 /* Mobile responsive styles */
 @media (max-width: 768px) {
   #header #about #resource {
-    flex:98%;
+    flex:100%;
     width: 98% !important;
     margin: 0 !important;
   }
