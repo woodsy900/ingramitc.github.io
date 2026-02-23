@@ -109,7 +109,6 @@ html {
 }
 
 body {
-  width:100%;
   font-family: Arial;
   font-size: 1rem;
   color: #222222;
@@ -117,16 +116,38 @@ body {
   display: flex;             /* Enable flexbox */
   justify-content: center;   /* Center horizontally */
   /*align-items: center;       /* Center vertically */
+  background-color:#008080;
 }
 /* Mobile responsive styles */
 @media (max-width: 768px) {
-  .window .window {
+  #header #about #resource {
+    flex:98%;
     width: 98% !important;
     margin: 0 !important;
   }
 }
+@media (min-width: 768px) {
+  #header {
+    flex:100%; 
+    width: 98% !important;
+    margin: 0 !important;
+  }
+  #about #resource {
+    width: 33% !important;
+    margin: 3px !important;
+    flex:33%;
+  }
+}
+
 .field-border-disabled img {
   width:100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--element-spacing);
+  justify-content: center;
 }
 
 button,
