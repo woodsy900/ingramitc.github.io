@@ -133,6 +133,19 @@ body {
     margin: 0 !important;
   }
   #about #resource {
+    flex:33%;
+    width: 33% !important;
+    margin: 3px !important;
+
+  }
+}
+@media (min-width: 800px) {
+  #header {
+    flex:100%; 
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  #about #resource {
     width: 33% !important;
     margin: 3px !important;
     flex:33%;
