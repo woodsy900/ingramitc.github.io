@@ -100,7 +100,13 @@ body {
   justify-content: center;   /* Center horizontally */
   /*align-items: center;       /* Center vertically */
 }
-
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .window .window {
+    width: 98% !important;
+    margin: 0 !important;
+  }
+}
 .field-border-disabled img {
   width:100%;
 }
