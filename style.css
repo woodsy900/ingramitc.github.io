@@ -85,7 +85,10 @@
   font-weight: bold;
   font-style: normal;
 }
-
+html {
+  /* clamp(MIN, PREFERRED, MAX) */
+  font-size: clamp(14px, 2vw + 10px, 18px);
+}
 body {
   font-family: Arial;
   font-size: 12px;
