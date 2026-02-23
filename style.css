@@ -98,7 +98,9 @@
   .window .window {
     width: 33% !important;
     margin: 3px !important;
-    float:left;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
   }
 }
 html {
