@@ -99,7 +99,6 @@ body {
   display: flex;             /* Enable flexbox */
   justify-content: center;   /* Center horizontally */
   align-items: center;       /* Center vertically */
-  min-height: 100vh;
 }
 
 .field-border-disabled img {
