@@ -243,7 +243,7 @@ input[type="reset"]:disabled,
 }
 
 .title-bar-controls button[aria-label="Minimize"] {
-  background-image: svg-load("../minimize.svg");
+  background-image: "minimize.svg";
   background-repeat: no-repeat;
   background-position: bottom 3px left 4px;
 }
