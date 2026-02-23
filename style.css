@@ -98,7 +98,7 @@ body {
   font-family: "Pixelify Sans", sans-serif;
   display: flex;             /* Enable flexbox */
   justify-content: center;   /* Center horizontally */
-  align-items: center;       /* Center vertically */
+  /*align-items: center;       /* Center vertically */
 }
 
 .field-border-disabled img {
