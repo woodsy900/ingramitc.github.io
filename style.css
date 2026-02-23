@@ -214,13 +214,13 @@ input[type="reset"]::-moz-focus-inner {
   border: 0;
 }
 
-:disabled,
+/*:disabled,
 :disabled + label,
 :read-only,
 :read-only + label {
   color: var(--button-shadow);
 }
-
+*/
 button:disabled,
 input[type="submit"]:disabled,
 input[type="reset"]:disabled,
