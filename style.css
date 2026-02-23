@@ -86,6 +86,21 @@
   font-weight: bold;
   font-style: normal;
 }
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .window .window {
+    width: 98% !important;
+    margin: 0 !important;
+  }
+}
+@media (min-width: 768px) {
+  .window .window {
+    width: 33% !important;
+    margin: 3px !important;
+    float:left;
+  }
+}
 html {
   /* clamp(MIN, PREFERRED, MAX) */
   font-size: var(--base-font-size);
