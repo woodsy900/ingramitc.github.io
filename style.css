@@ -104,15 +104,6 @@ body {
   width:100%;
 }
 
-@media (min-width: 768px) {
-      body { font-size: 16px; } /* Larger on desktop */
-    }
-
-@media (max-width: 767px) {
-      body { font-size: 18px; }
-      p {font-size:18px; } /* Even larger on mobile if needed */
-    }
-
 button,
 label,
 input,
