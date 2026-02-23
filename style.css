@@ -118,7 +118,7 @@ ul.tree-view,
   -webkit-font-smoothing: none;
   font-size: 11px;
 }
-.window {
+p.window {
   font-size: var(--base-font-size);
 }
 
