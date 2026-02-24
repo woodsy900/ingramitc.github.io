@@ -86,23 +86,6 @@
   font-weight: bold;
   font-style: normal;
 }
-
-/* Mobile responsive styles */
-@media (max-width: 768px) {
-  .window .window {
-    width: 98% !important;
-    margin: 0 !important;
-  }
-}
-@media (min-width: 768px) {
-  .window .window {
-    width: 33% !important;
-    margin: 3px !important;
-    float: none;
-    display: inline-block;
-    vertical-align: top;
-  }
-}
 html {
   /* clamp(MIN, PREFERRED, MAX) */
   font-size: var(--base-font-size);
@@ -120,7 +103,7 @@ body {
 }
 /* Mobile responsive styles */
 @media (max-width: 768px) {
-  #header #about #resource {
+  #header, #about, #resource {
     flex:100%;
     width: 98% !important;
     margin: 0 !important;
@@ -131,7 +114,7 @@ body {
     flex:100%; 
     margin: 0 !important;
   }
-  #about #resource {
+  #about, #resource {
     flex:33%;
     margin: 3px !important;
 
