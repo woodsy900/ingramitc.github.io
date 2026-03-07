@@ -896,7 +896,6 @@ summary:focus {
 .start-button:hover {
   background-position: 0 -32px;
 }
-
 .start-button:active {
   background-position: 0 -65px;
 }
