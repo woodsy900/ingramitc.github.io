@@ -79,6 +79,15 @@
 </div>
 <div class="taskbar">
   <button class="start-button">Start</button>
+  <div class="start-menu">
+    <!-- Start menu content goes here -->
+    <div class="menu-item">Programs</div>
+    <div class="menu-item">Documents</div>
+    <div class="menu-item">Settings</div>
+    <div class="menu-item">Find</div>
+    <div class="menu-separator"></div>
+    <div class="menu-item">Shut Down</div>
+  </div>
   <div class="taskbar-content">
     <!-- Taskbar buttons go here -->
   </div>
@@ -102,6 +111,18 @@
   
   // Update every second
   setInterval(updateTime, 1000);
+
+  const startMenu = document.querySelector('.start-menu');
+
+startButton.addEventListener('click', (e) => {
+  e.stopPropagation();
+  startMenu.classList.toggle('active');
+});
+
+// Close menu when clicking elsewhere
+document.addEventListener('click', () => {
+  startMenu.classList.remove('active');
+});
 </script>
 </body>
 </html>

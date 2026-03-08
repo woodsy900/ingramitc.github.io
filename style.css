@@ -899,3 +899,38 @@ summary:focus {
 .start-button:active {
   background-position: 0 -65px;
 }
+
+.start-menu {
+  display: none;
+  position: absolute;
+  bottom: 28px;
+  left: 0;
+  width: 200px;
+  background: #c0c0c0;
+  border: 2px outset #dfdfdf;
+  border-right-color: #808080;
+  border-bottom-color: #808080;
+  z-index: 1000;
+}
+
+.start-menu.active {
+  display: block;
+}
+
+.menu-item {
+  padding: 4px 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.menu-item:hover {
+  background: #000080;
+  color: white;
+}
+
+.menu-separator {
+  height: 2px;
+  background: #dfdfdf;
+  border-top: 1px solid #808080;
+  margin: 2px 0;
+}
